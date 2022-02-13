@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {
-  featuredPortfolio,
+  programmingPortfolio,
   webPortfolio,
   mobilePortfolio,
   designPortfolio,
@@ -10,35 +10,35 @@ import {
 } from "../../data";
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState("featured");
+  const [selected, setSelected] = useState("Programming languages");
   const [data, setData] = useState([]);
   const list = [
     {
-      id: "featured",
-      title: "Featured",
+      id: "Programming languages",
+      title: "Programming languages/Data Base",
     },
     {
       id: "web",
-      title: "Web App",
+      title: "Web Languages",
     },
     {
       id: "mobile",
-      title: "Mobile App",
-    },
-    {
-      id: "design",
-      title: "Design",
-    },
-    {
-      id: "content",
-      title: "Content",
-    },
+      title: "Software",
+    }
+    // {
+    //   id: "design",
+    //   title: "Design",
+    // },
+    // {
+    //   id: "content",
+    //   title: "Content",
+    // },
   ];
 
   useEffect(() => {
     switch (selected) {
       case "featured":
-        setData(featuredPortfolio);
+        setData(programmingPortfolio);
         break;
       case "web":
         setData(webPortfolio);
@@ -53,22 +53,22 @@ export default function Portfolio() {
         setData(contentPortfolio);
         break;
       default:
-        setData(featuredPortfolio);
+        setData(programmingPortfolio);
     }
   }, [selected]);
 
   return (
     <div className="portfolio" id="portfolio">
-      <h1>Portfolio</h1>
+      <h1>Compétences</h1>
       <ul>
         {list.map((item) => (
           <PortfolioList
-            title={item.title}
-            active={selected === item.id}
-            setSelected={setSelected}
-            id={item.id}
+          title={item.title}
+          active={selected === item.id}
+          setSelected={setSelected}
+          id={item.id}
           />
-        ))}
+          ))}
       </ul>
       <div className="container">
         {data.map((d) => (
@@ -76,7 +76,7 @@ export default function Portfolio() {
             <img
               src={d.img}
               alt=""
-            />
+              />
             <h3>{d.title}</h3>
           </div>
         ))}
