@@ -7,15 +7,15 @@ export default function Formation() {
 		{
 			id: '1',
 			icon: './assets/mobile.png',
-			title: 'baccalaureate in mathematics',
-			desc: 'Bac Math Mension bien, 2019 Tizi Ouzou Algerie. ',
+			title: 'Baccalauréat mathématique',
+			desc: 'Bac Math Mention bien, 2019 Tizi Ouzou Algérie ',
 			img: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.midiazot.fr%2Fwp-content%2Fuploads%2F2018%2F07%2FIMGBN44639bac-laureats.jpg&f=1&nofb=1"
 		},
 		{
 			id: '2',
 			icon: './assets/globe.png',
 			title: '1st year in electronic and electric ingineering',
-			desc: 'L1 en genie electrique et electronique à Boumerdes 2019-2020 ',
+			desc: 'L1 en génie électrique et électronique à Boumerdes 2019-2020',
 			img:
 				'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.algerie-eco.com%2Fwp-content%2Fuploads%2F2017%2F01%2FUniversit%25C3%25A9-M%25E2%2580%2599Hamed-Bougara-de-Boumerdes.png&f=1&nofb=1'
 		},
@@ -23,7 +23,7 @@ export default function Formation() {
 			id: '3',
 			icon: './assets/globe.png',
 			title: 'Dut Informatique',
-			desc: 'Dut Inforatique à Villetaneuse Sorbonne Paris Nord, 2020-2022',
+			desc: 'Dut Informatique à Villetaneuse Sorbonne Paris Nord, 2020-2022',
 			img:
 				'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.univ-paris13.fr%2Fwp-content%2Fuploads%2FFONDATION292x240-BU.jpg&f=1&nofb=1'
 		}

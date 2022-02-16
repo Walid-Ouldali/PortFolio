@@ -8,7 +8,7 @@ export default function Works() {
 			id: '1',
 			icon: './assets/mobile.png',
 			title: 'Food Delivery Web Site',
-			desc: 'A small web site project for an imaginary restaurant with delivery services ',
+			desc: 'A small website project for an imaginary restaurant with delivery services ',
 			img: ""
 		},
 		{
@@ -23,7 +23,7 @@ export default function Works() {
 			id: '3',
 			icon: './assets/globe.png',
 			title: 'Java project python',
-			desc: 'Recreating a more complexe chess game using Java language with all the rules and a better interface',
+			desc: 'Recreating a more complex chess game using Java language with all the rules and a better interface',
 			img:
 				'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcamo.githubusercontent.com%2F2585c1c742042de7781976bf005ea81c41ee234f%2F687474703a2f2f692e696d6775722e636f6d2f417358686876432e706e67&f=1&nofb=1'
 		}

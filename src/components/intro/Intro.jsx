@@ -10,7 +10,7 @@ export default function Intro() {
 			showCursor: true,
 			backDelay: 1500,
 			backSpeed: 60,
-			strings: [ 'Student', 'Fullstack Developper', 'Future cyber security engineer' ]
+			strings: [ 'Student', 'Fullstack Developper', 'Future Software engineer' ]
 		});
 	}, []);
 
@@ -31,15 +31,14 @@ export default function Intro() {
 					<br />
 					<div className="presentation">
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quis! Quod minus
-							asperiores expedita modi a sunt qui, voluptate vero laboriosam voluptatibus deserunt
-							distinctio sequi labore optio dolore ducimus blanditiis. Lorem ipsum dolor sit amet
-							consectetur adipisicing elit. Eveniet, quis! Quod minus asperiores expedita modi a sunt qui,
-							voluptate vero laboriosam voluptatibus deserunt distinctio sequi labore optio dolore ducimus
-							blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quis! Quod
-							consectetur adipisicing elit. Eveniet, quis! Quod minus asperiores expedita modi a sunt qui,
-							voluptate vero laboriosam voluptatibus deserunt distinctio sequi labore optio dolore ducimus
-							blanditiis.
+							Motivé et passionné par l'informatique depuis mon plus jeune âge, curieux d'en apprendre
+							toujours plus sur les dernières technologies. Je passe une partie de mon temps libre à
+							monter en compétences à travers divers projets que ce soit professionnels, personnels ou
+							universitaires. Actuellement Full stack web developer en alternance je souhaite continuer
+							mes études dans une école d'ingénieur pour devenir Ingénieur Logiciel Afin de démontrer
+							certaines compétences, notamment en développement Web (HTML, CSS , Javascript et ReactJS).
+							Je me suis lancé dans la réalisation de ce Portfolio et dans d'autres projets listés
+							ci-dessous.
 						</p>
 					</div>
 				</div>
